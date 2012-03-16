@@ -1,0 +1,10 @@
+Example of easy game Karel.
+
+List of methods:
+
+	void go()
+	void turnLeft()
+	void turnRight()
+	boolean inTarget()
+
+Every questions and tips please refer to felix@noblexity.com
