@@ -11,7 +11,7 @@ public class Game {
 
     private void start() {
         // Parse info from file
-        FileParser fp = new FileParser("D:/JAVA/Karel/src/game/zadani.log");
+        FileParser fp = new FileParser("ROOT_PATH/src/game/zadani.log");
         fp.init();
 
         final Playground p = new Playground(fp.getWidth(), fp.getHeight());
