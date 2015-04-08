@@ -1,4 +1,4 @@
-package node;
+package cz.jfx.karel.entity;
 
 /**
  *

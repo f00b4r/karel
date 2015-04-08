@@ -1,4 +1,4 @@
-package node;
+package cz.jfx.karel.entity;
 
 import javax.swing.ImageIcon;
 
@@ -11,6 +11,6 @@ public class Target extends Node {
     public Target(int x, int y) {
         super(x, y);
         setCode("C");
-        setIcon(new ImageIcon(getClass().getResource("/icons/target.png")));
+        setIcon(new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/target.png")));
     }
 }

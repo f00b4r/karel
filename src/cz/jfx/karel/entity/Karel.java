@@ -1,6 +1,6 @@
-package node;
+package cz.jfx.karel.entity;
 
-import game.Playground;
+import cz.jfx.karel.game.Playground;
 import javax.swing.ImageIcon;
 
 /**
@@ -10,10 +10,10 @@ import javax.swing.ImageIcon;
 public class Karel extends Node implements Movable {
 
     private int direction;
-    private final ImageIcon ICON_UP = new ImageIcon(getClass().getResource("/icons/karelUP.png"));
-    private final ImageIcon ICON_DOWN = new ImageIcon(getClass().getResource("/icons/karelDOWN.png"));
-    private final ImageIcon ICON_LEFT = new ImageIcon(getClass().getResource("/icons/karelLEFT.png"));
-    private final ImageIcon ICON_RIGHT = new ImageIcon(getClass().getResource("/icons/karelRIGHT.png"));
+    private final ImageIcon ICON_UP = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/karelUP.png"));
+    private final ImageIcon ICON_DOWN = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/karelDOWN.png"));
+    private final ImageIcon ICON_LEFT = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/karelLEFT.png"));
+    private final ImageIcon ICON_RIGHT = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/karelRIGHT.png"));
 
     public Karel(int x, int y) {
         super(x, y);

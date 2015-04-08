@@ -1,21 +1,13 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package GUI;
+package cz.jfx.karel.GUI;
 
-import game.Playground;
+import cz.jfx.karel.game.Playground;
 import java.awt.Dimension;
 import java.awt.GridLayout;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import node.Position;
-import node.Node;
+import cz.jfx.karel.entity.Position;
+import cz.jfx.karel.entity.Node;
 
 /**
  *
@@ -23,7 +15,7 @@ import node.Node;
  */
 public class DeskForm extends javax.swing.JFrame {
 
-    private final ImageIcon ICON_DEFAULT = new ImageIcon(getClass().getResource("/icons/empty.png"));
+    private final ImageIcon ICON_DEFAULT = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/empty.png"));
     private Playground p;
     private Position currentPosition;
 
@@ -254,8 +246,8 @@ public class DeskForm extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-270)/2, (screenSize.height-355)/2, 270, 355);
+        setSize(new java.awt.Dimension(270, 355));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void goActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_goActionPerformed

@@ -1,6 +1,6 @@
-package node;
+package cz.jfx.karel.entity;
 
-import game.Playground;
+import cz.jfx.karel.game.Playground;
 import javax.swing.ImageIcon;
 
 /**
@@ -11,7 +11,7 @@ public class Node{
     private Position position;
     private String code;
     private Playground parent;
-    private ImageIcon icon = new ImageIcon(getClass().getResource("/icons/empty.png"));
+    private ImageIcon icon = new ImageIcon(getClass().getResource("/cz/jfx/karel/resources/icons/empty.png"));
 
     public Node(int x, int y) {
         this.position = new Position(x, y);

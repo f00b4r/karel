@@ -1,9 +1,9 @@
-package game;
+package cz.jfx.karel.game;
 
 import java.util.ArrayList;
-import node.Karel;
-import node.Node;
-import node.Target;
+import cz.jfx.karel.entity.Karel;
+import cz.jfx.karel.entity.Node;
+import cz.jfx.karel.entity.Target;
 
 /**
  *
